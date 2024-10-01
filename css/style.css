@@ -1,0 +1,311 @@
+* {
+    margin: auto;
+    padding: 0;
+	font-variant:small-caps;
+	font-size:20;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #6f4c3e; 
+    height: 100px;
+    color: white;
+}
+
+#links {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#content {
+    text-align: center;
+    background: #6f4c3e; 
+    color: wheat;
+    padding: 60px;
+	text-align: %;
+}
+
+#links a {
+    padding-left: 60px;
+    color: #f5f5dc; 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#links a:hover {
+    color: #ffcc00; 
+}
+
+#coffees {
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+#coffee {
+    width: 25%;
+}
+
+#coffee img {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+#coffee button {
+    padding: 10px;
+    background: #ffcc00; 
+    color: #46250f; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#coffee button:hover {
+    background: #e6b800; 
+}
+
+#detail {
+    display: flex;
+    gap: 70px;
+}
+
+#Description {
+    width: 50%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #854d19; 
+}
+
+#Description2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #854d19;
+}
+
+#Description button {
+    padding: 15px;
+    width: 100px;
+    background: #6f4c3e; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#Description input {
+    padding: 13px;
+    border: 2px solid #854d19;
+    border-radius: 5px; 
+}
+
+#origins {
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;  
+}
+
+#register {
+    display: flex;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+	
+}
+
+#form {
+    width: 50%;
+    margin: 0 auto; 
+    padding: 20px;
+    background: #f9f9f9; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+fieldset {
+    border: none; 
+    padding: 0; 
+}
+
+
+h1 {
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px;
+	font-variant:small-caps;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; 
+    padding: 2px;
+    margin-left:250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    background: #6f4c3e; 
+    color: white;
+    border: none;
+	margin-left:10px; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%; 
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #5c3e30;
+color:chocolate;
+}
+
+
+	
+}
+
+#form {
+    margin-top: 180px;
+	background-color:#5c3e30;
+}
+
+#form input {
+    padding: 15px;
+	width:500;
+	height:80;
+    border: 2px solid #854d19;
+    border-radius: 5px; 
+}
+
+#form button {
+    padding: 15px;
+    width: 100px;
+    background: bulesky;
+    color: #46250f; 
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #46250f; 
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px 20px; 
+	 width: auto;
+	height:auto;
+}
+
+.footer .cols {
+    padding: 60px;
+    display: flex;
+    gap: 45px;
+}
+
+.footer .cols .col {
+    width: 10%;
+	height:10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.col span {
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: #ffcc00; 
+}
+
+.footer p {
+    color: #a9a9a9;
+}
+
+.footer ul li {
+    color: #a9a9a9;
+    list-style-type: disclosure-closed;
+    padding-top: 15px;
+}
+
+.col button {
+    background: #ffcc00;
+    border: none;
+    color: white;
+    width: 60%;
+    padding: 13px;
+    font-weight: 800;
+    border-radius: 5px; 
+}
+
+#logo h2 {
+    color: #ffcc00; 
+    font-size: 24px;
+    font-family: fantasy;
+}
+.banner {
+          position: relative;
+          text-align: center;
+          color: white;
+      }
+
+      .banner img {
+          width: 100%;
+          height: auto;
+      }
+
+      .banner-overlay {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: white;
+          padding: 20px;
+          border-radius: 10px;
+      }
+ 
+      .banner-overlay h2 {
+          margin: 0;
+          font-size: 2em;
+      }
+
+      .banner-overlay p {
+          margin: 10px 0;
+          font-size:1.9em;
+		  
+      }
+	  .social i{
+		  height:40px;
+		  width:40px;
+		  font-size:20px;
+		  color:white;
+		  
+		 
+	  }
